@@ -37,3 +37,4 @@ It represents a step forward from my first Flutter app and reflects progress in:
 
 License:
 MIT License
+
