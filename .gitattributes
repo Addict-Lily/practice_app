@@ -1,8 +1,14 @@
+# Force Dart as primary language
 *.dart linguist-language=Dart
 
-linux/* linguist-vendored
-windows/* linguist-vendored
-macos/* linguist-vendored
-ios/* linguist-vendored
-android/* linguist-vendored
-web/* linguist-vendored
+# Ignore Flutter generated platform code
+android/** linguist-vendored
+ios/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+web/** linguist-vendored
+
+# Ignore build & tool files
+build/** linguist-vendored
+.dart_tool/** linguist-vendored
